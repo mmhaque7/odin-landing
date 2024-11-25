@@ -80,6 +80,8 @@ hero-img {
   border-radius: 5px;
   width: 9rem;
   margin-top: 1rem;
+  border-radius: 5px;
+  border-color: #f9faf8;
 }
 
 h2 {
@@ -117,4 +119,37 @@ h2 {
   align-items: center;
   justify-content: center;
   margin: 20px;
+}
+.qoute {
+  background-color: #e5e7eb;
+
+  padding: 150px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+  color: #1f2937;
+  justify-content: center;
+  align-items: center;
+}
+.author {
+  justify-content: flex-end;
+  display: flex;
+  font-weight: 900;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.action {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  border-radius: 10px;
+  color: #f9faf8;
+}
+.action-text {
+  font-size: 18px;
+  font-weight: 700;
 }
